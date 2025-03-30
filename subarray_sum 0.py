@@ -13,4 +13,7 @@ for i in range(n):
                 e = j
 print(maxi)
 print(arr[s:e+1])
+print(chr(65))
+print(chr(97))
+print(chr(48))
 
