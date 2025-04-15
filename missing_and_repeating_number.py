@@ -10,11 +10,11 @@ def repeating(nums):
    print(freq)
 
    repeat = 0
-   duplicate = 0
+   missing = 0
    for i in range(n):
        if freq[i] == 2:
            repeat = i+1
        if freq[i] == 0:
-           duplicate = i+1
-   return [repeat, duplicate]
-print(repeating([3, 5, 4, 1, 1]))
+           missing = i+1
+   return [repeat, missing]
+print(repeating([1, 2, 3, 6, 7, 5, 7]))
