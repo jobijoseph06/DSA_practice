@@ -11,6 +11,6 @@ def lower(arr, target):
             low = mid+1
     arr.insert(result, target)
 
-    return arr,result
-print(lower([45, 60, 60, 60, 70, 85, 90],65))
+    return low,arr,result
+print(lower([45, 60, 60, 60, 70, 85, 90],60))
 
